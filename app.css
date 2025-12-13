@@ -67,6 +67,12 @@ body {
     transition: border 0.3s ease-in-out;
 }
 
+input:focus {
+  outline: none;
+  border-color: #4da3ff;
+  box-shadow: 0 0 0 2px rgba(77, 163, 255, 0.3);
+}
+
 .form-input::placeholder {
     color: var(--form-color);
 }
